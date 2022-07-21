@@ -2,7 +2,7 @@ public with sharing class Requestclass {
     public void requestClassmethod() {
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        request.setEndpoint('https://reqres.in/api/users');
+        request.setEndpoint'https://reqres.in/api/users';
         request.setMethod('GET');
         HttpResponse response = http.send(request);
         
